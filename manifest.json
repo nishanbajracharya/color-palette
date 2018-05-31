@@ -1,0 +1,21 @@
+{
+  "name": "Color Palette",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "A color palette saving tool",
+  "homepage_url": "http://extensionizr.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "browser_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "Color Palette",
+    "default_popup": "src/views/popup.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
